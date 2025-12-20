@@ -1,4 +1,4 @@
-# 01_HTML_Lesson
+# *__HTML Lesson__*
 ```
 Contains all the HTML lessons!
 ```
