@@ -3,16 +3,46 @@
     First Name : <input 
         type="text" 
         placeholder="Enter your first name here"
-        value="Kakashi"
+        value="Kakashi" 
         >
+        <!--The value is the auto fill feature-->
     <br>
     <br>
     Last Name : <input type="text">
-    <br>
     <br>
     <h4>Gender</h4>
     <!--We want only to be selected...so we add an attribute called as name-->
     <input type="radio" name="gender"> Male
     <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+    <br><br>
+    Select the occupation : <select name="occupation">
+        <option>Engineer</option>
+        <option>Finance</option>
+        <option>Others</option>
+    </select>
+    <br><br>
+    <!--Code from net for drop down menu-->
+        <label for="fruits">Choose a fruit:</label>
+        <select name="fruits" id="fruits">
+            <option value="">--Select an option--</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange" selected>Orange</option>
+            <option value="grape">Grape</option>
+        </select>
+    <br><br>
+    <input type="checkbox" name="terms"> Terms & conditions <br>
+    <input type="checkbox" name="subscribe"> Subscribe 
+    <br>
+    <br>
+    <!--Now to show the text area like the ones that are present inside the youtube comments-->
+    <textarea name="" id="" placeholder="Enter your thoughts here"></textarea>
+    <br>
+    <br>
+    <input type="file">
+    <br>
+    <br>
+    <input type="submit" value="Register"> <!--The value attribute helps to name the submit button-->
 
 </form>
