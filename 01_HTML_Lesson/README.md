@@ -4,6 +4,9 @@
 ---
 ## **Lessons by @ezsnippet – IG [Neeraj Wallia Sensei]**
 
+### *__Shortcuts__*
+1. HTML Boiler plate code, press : `!`+`Tab`
+
 ### *__Concepts__*
 1. [What is Web Development](#1-what-is-web-development)
 2. [How the Web Works – Client-Server Model](#2-how-the-web-works--client-server-model)
@@ -20,7 +23,7 @@
 13. [Forms](#13-forms)
 14. [Form Validation](#14-form-validation)
 15. [HTML Drop Down](#15-html-drop-down)
-16. [](#)
+16. [Login form](#16-login-form)
 
 ---
 ### 1. What is Web Development?
@@ -230,4 +233,48 @@ This is a clean, well-structured, and properly formatted version of the entire l
 </form>
 ```
 
+---
+
+### 16 Login Form
+
+- The `<hr>` tag will give a horizontal line.
+- After writing the code, open claude, & prompt : 
+    ```
+    Can you make this better without extra tag, as I'm learning HTML.
+    ```
+- The enhancement was to add the `label` tag for username. 
+- we do 
+    ```html
+    <form>
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required><br><br>
+    <form>
+    ```
+    - when we put the username in label & give the `for` attribute as "username", & in the input we map the `id` to "username", in the html page, when the user clicks on the username, the cursor will automatically appear in the input field its mapped to.
+    - Similarly we can use label & add map it to `checkbox`, this way just by clicking the text we can check or uncheck the `checkbox`
+    
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <hr> <!--Horizontal line-->
+        <form>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <p>Minimum text : 8 characters</p>
+            <br>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">Terms & conditions</label>
+            <br><br>
+            <button type="submit">Login </button>
+        </form>
+    </body>
+    </html>
+    ```
 ---
