@@ -1,6 +1,6 @@
 
 ---
-# <center>*__HTML Lessons__*
+# <div align="center">*__HTML Lessons__*<div>
 ---
 ## **Lessons by @ezsnippet – IG [Neeraj Wallia Sensei]**
 
@@ -277,4 +277,20 @@ This is a clean, well-structured, and properly formatted version of the entire l
     </body>
     </html>
     ```
+
+- Note : Boiler plate code, press `! <Tab>`
+
+- for text area, you can define rows & columns too using the below way : 
+    ```html
+    <textarea rows="10" columns="69">
+    </textarea>
+    ```
+- In the form you can add `reset` feature, which will help us to clear the form. 
+- > But, in order for the reset to work, you need to make sure to next it inside/wrapped inside the `<form>` tag
+- eg : 
+    ```html
+    <!-- THis will reset everythig -->
+    <button type="reset"> Reset </button>
+    ```
+
 ---
