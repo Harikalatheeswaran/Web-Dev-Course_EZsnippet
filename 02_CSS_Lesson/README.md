@@ -39,5 +39,47 @@
         ```html
         <p stylle="color:rgb(224, 13, 154) ; font-size:18px"> </p>
         ```
+    - output in the HTML, copy the below & check it out : 
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>CSS Introduction</title>
+    </head>
+    <body>
+        <!--Say we have a paragraph-->
+        <p style="color:rgb(224, 13, 154) ; font-size: 18px;">
+            The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel drive system.<br>
+            It was introduced by the German car manufacturer Audi AG in 2006.Production ended in the first quarter of 2024. <br>
+            <br>
+        </p>
+        <p style="color:rgb(1, 54, 54) ; font-size: 20px;">
+            The car is exclusively designed, developed, and manufactured by Audi AG's private subsidiary company manufacturing high performance automotive parts<br>
+            Audi Sport GmbH (formerly quattro GmbH), and was inspired by the Lamborghini Gallardo albeit the second generation is built using the Huracán platform.<br>
+            The fundamental construction of the R8 is based on the Audi Space Frame,and uses an aluminium monocoque which is built using space frame principles.<br>
+        </p>
+        
+    </body>
+    </html>
+    ```
 
-- 
+### 2. Block & Inline elements. (Day 18)
+
+- So far when we use default tags like `h1`, they have their default property. 
+- `Block Element` : 
+    - In simple words, block elements creates a block which is that it takes up complete space, when you give 2 block elements in the same line you will notice in the browswer they take up separate lines. Eg : 
+        - eg : 
+        ```html
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        ```
+- `Inline Element` : 
+    - Inline element does not create a new line.
+    - Eg : 
+    ```html
+    <a>Click Here</a>    
+    <a>Click Here</a>
+    ```
+- This is important to know because, in the future when we make layouts we need to know which is `block element` & which is a `inline element`
+
+- We use `<div>` to make block elements & `<spam>` to make inline elements.
