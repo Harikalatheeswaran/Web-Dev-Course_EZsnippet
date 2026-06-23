@@ -8,7 +8,10 @@
 1. HTML Boiler plate code, press : `!`+`Tab`
 
 ### *__Concepts__*
-1. [CSS Introduction](#1-what-is-web-development)
+1. [CSS Introduction](#1-css-intorduction)
+2. [Block & Inline Elements](#2-block--inline-elements-day-18)
+3. [Dev Tool](#3-dev-tool-day-19)
+4. [4 Missing 🙁]()
 
 
 
@@ -62,6 +65,7 @@
     </body>
     </html>
     ```
+---
 
 ### 2. Block & Inline elements. (Day 18)
 
@@ -83,3 +87,26 @@
 - This is important to know because, in the future when we make layouts we need to know which is `block element` & which is a `inline element`
 
 - We use `<div>` to make block elements & `<spam>` to make inline elements.
+
+---
+
+### 3. Dev tool. (Day 19)
+
+- Its nothing but the `inspect` button on the browswer which let's you look at the site's HTML & CSS.
+- Under `Styles` we will see the CSS part.
+- The best part is you can edit this & you will see the local changes by clicking on Enter.
+
+---
+
+### 4. Layout Design (Day 20)
+
+- Project : take a look at a wikipedia's : today's featured picture section & we try to implement it. 
+- Reference : https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day
+- Notes : 
+    - We make blocks using `<div>` tags.
+    - Rule of thumb: For 
+    ```html
+    <img src="...">
+    ```
+    the URL must point directly to the image file itself — you can get it by right-clicking the image on the page and selecting "Copy image address".
+    
